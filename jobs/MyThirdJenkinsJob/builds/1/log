@@ -1,0 +1,14 @@
+Started by user [8mha:////4ICSAQlRHn2gFieBQbPM+j/8vIro8rSj4+P0ItbfCD8uAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZe/dLi1CL93MyS0qyMRAD+vPYqwgAAAA==[0mmitu jha
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\MyThirdJenkinsJob
+[MyThirdJenkinsJob] $ cmd /c call C:\Windows\TEMP\jenkins8615126610355424501.bat
+
+C:\Program Files (x86)\Jenkins\workspace\MyThirdJenkinsJob>javac a.java 
+'javac' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Program Files (x86)\Jenkins\workspace\MyThirdJenkinsJob>java a 
+Error: Could not find or load main class a
+
+C:\Program Files (x86)\Jenkins\workspace\MyThirdJenkinsJob>exit 1 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

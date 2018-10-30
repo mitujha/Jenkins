@@ -1,0 +1,28 @@
+Started by user [8mha:////4ICSAQlRHn2gFieBQbPM+j/8vIro8rSj4+P0ItbfCD8uAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZe/dLi1CL93MyS0qyMRAD+vPYqwgAAAA==[0mmitu jha
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\MyThirdJenkinsJob
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/mitujha/test.git # timeout=10
+Fetching upstream changes from https://github.com/mitujha/test.git
+ > git.exe --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --progress https://github.com/mitujha/test.git +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/master
+Seen 1 remote branch
+ > git.exe show-ref --tags -d # timeout=10
+Checking out Revision 3d7291e06c0a5a909edfc65aabcda1c75656fe38 (origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 3d7291e06c0a5a909edfc65aabcda1c75656fe38
+Commit message: "python file"
+ > git.exe rev-list --no-walk 6e2d3182ce731cee082a257f4e692ca212129b48 # timeout=10
+[MyThirdJenkinsJob] $ cmd /c call C:\Windows\TEMP\jenkins4851076425378814993.bat
+
+C:\Program Files (x86)\Jenkins\workspace\MyThirdJenkinsJob>set C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Python27;C:\Python27\Scripts;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;\bin;=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Python27;C:\Python27\Scripts;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;\bin;;C:\Python27\Scripts 
+
+C:\Program Files (x86)\Jenkins\workspace\MyThirdJenkinsJob>cd C:\Users\GHRX9806\test 
+
+C:\Users\GHRX9806\test>python a.py 
+Hello World!!!
+
+C:\Users\GHRX9806\test>exit 0 
+Finished: SUCCESS
